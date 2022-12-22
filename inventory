@@ -1,0 +1,10 @@
+db ansible_host=ip-172-31-59-165
+web ansible_host=ip-172-31-62-72
+
+# This is the default ansible 'hosts' file.
+#
+# It should live in /etc/ansible/hosts
+#
+#   - Comments begin with the '#' character
+#   - Blank lines are ignored
+#   - Groups of hosts are delimited by [header] elements

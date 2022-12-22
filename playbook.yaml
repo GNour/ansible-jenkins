@@ -1,0 +1,9 @@
+- name: "Manage WEB and DB Hosts"
+  hosts: web,db
+  become: true
+  tasks:
+         - name: "Add user Ghyath" 
+           user:
+                    name: ghyath
+                    state: present
+
